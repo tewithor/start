@@ -1,0 +1,33 @@
+/* If you're using LibGuides, add this css code to in Guide Custom JS/CSS under Guide Layout*/
+
+<style>
+
+/*Hides guide name and description from top of the page*/
+#s-lg-guide-name {display: none;}
+#s-lg-guide-description {display: none;}
+#s-lg-guide-header-search {display: none;}
+#s-lg-tabs-container {display: none;}
+
+/*Styling for buttons*/
+.btn-light {
+background-color: #e7e7e7; /* Change this hex color to change the main background of the button */ 
+border: none; 
+color: gray; /* Change this color to change the main text for the button */ 
+padding: 15px 32px;
+margin-bottom: 20px; 
+text-align: center; 
+text-decoration: none; 
+display: inline-block; 
+font-size: 16px; 
+border-radius: 0px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+width: 100%;
+height: 50%;
+}
+
+.btn-light:hover {
+background-color: #009DBB; /* Change this color to change the background when user hovers over the button */
+color: white; /* Change this color to change the text when user hovers over the button */
+}
+
+</style>
